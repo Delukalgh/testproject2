@@ -22,6 +22,8 @@ export const DetailsScreen = ({ navigation }) => {
       <Divider/>
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text category='h1'>DETAILS</Text>
+        <Text category='h3'>Pages working?</Text>
+        <Text category='h6'>There should be a back arrow at the top left</Text>
       </Layout>
     </SafeAreaView>
   );
