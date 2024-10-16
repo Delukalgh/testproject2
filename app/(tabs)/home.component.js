@@ -14,7 +14,6 @@ export const HomeScreen = ({ navigation }) => {
       <Divider/>
       <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Button onPress={navigateDetails}>Press button to open to another page</Button>
-        <Text category='h6'>There should be a back arrow at the top left</Text>
       </Layout>
     </SafeAreaView>
   );
